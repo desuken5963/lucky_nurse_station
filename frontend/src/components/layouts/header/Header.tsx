@@ -17,7 +17,7 @@ const Header: React.FC = () => {
   return (
     <header 
       style={{
-        background: 'linear-gradient(to right, #fdfbfa, #1daacd)',
+        background: 'linear-gradient(to right, rgba(253, 251, 250, 0.5), rgba(29, 170, 205, 0.5))',
       }}
       className="sticky top-0 z-50 bg-fdfbfa text-263f4b font-nunito "
     >
@@ -29,7 +29,6 @@ const Header: React.FC = () => {
           <a 
             href="/" 
             className="font-semibold text-xl tracking-tight"
-            style={headerTextStyle}
           >
             Lucky訪問看護ステーション
           </a>
